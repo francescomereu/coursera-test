@@ -5,6 +5,53 @@
         <title>Test di GIT</title>
     </head>
 <body>
-    <h1>TITOLO</h1>
+    <h1>TITOLO IN H1</h1>
+    <div>
+        Divisione 1
+    </div>
+    <span>Questo è uno span. Dopo inserisco</span>
+    <a href="www.google.it">un link cliccabile con tag &lt;a&gt;</a>
+    <hr>
+    <div>Perché non va a capo il tag &lt;a&gt;?</div>
+    <a href="www.google.it">Perché è preceduto da uno span, non da un div, come in questo caso.</a>
+    <hr>
+    <pre>
+        In questo caso sto usando       Essendo monospaziato
+        il tag pre. Mi permette         riesco perfino a creare
+        di visualizzare il testo        due colonne di testo 
+        con gli stessi a capo           equidistanti tra loro,
+        e le stesse caratteristiche     senza ricorrere ad altre
+        di formattazione del file       soluzioni, come i div,
+        html che sto scrivendo.         le tabelle o altro.
+    </pre>
+    <hr>
+    <div>
+        <h2>Lista ordinata</h2>
+        <ol>
+            <li>primo</li>
+            <li>secondo</li>
+            <li>terzo</li>
+        </ol>
+        <h2>Lista ordinata, al contrario</h2>
+            Per impostarla al contrario uso il tag reversed;, <br>
+            seguito da start="" che mi permette di specificare <br>
+            da che numero parte la numerazione.
+        <ol reversed start="6">
+            <li>Questo lo faccio diventare sesto</li>
+            <li>Questo sarà il quinto</li>
+            <li>Questo invece il quarto</li>
+        </ol>
+        <h2>Lista non ordinata</h2> 
+        <ul>
+            <li>elemento 1</li>
+            <li>elemento 2</li>
+                <ol>
+                    <li>Un punto può contenere</li>
+                    <li>altri punti al suo interno</li>
+                    <li>perfino numerati.</li>
+                </ol>
+            <li>elemento 3</li>
+        </ul>
+    </div>
 </body>
 </html>

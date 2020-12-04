@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Futura', 'Helvetica', sans-serif;
+}
+
+header {
+    position: relative;
+    left: 50px;
+}
+.titolo {
+    background-color: #222222;
+    width: 430px;
+    height: 90px;
+    margin: 20px 0px 50px 30px;
+    position: relative;
+}
+
+.serieA {
+    background-color: #444444;
+    width: 410px;
+    height: 60px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+p {
+    color: yellowgreen;
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#bandiera {
+    background-color: white;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    top: 25px;
+    border: 2px solid gold;
+    
+}
+
+#verde {
+    background-color: darkgreen;
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+}
+
+#rosso {
+    background-color: red;
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    z-index: 3;
+    right: 0px;
+    top: 0px;
+}
+
+table {
+    color: whitesmoke;
+    background-color: #222222;
+    font-family: 'Futura', 'Helvetica', sans-serif;
+    margin: 0px 30px;
+}
+
+thead {
+    color: gold;
+    background-color: #444444;
+}
+
+.champions {
+    background-color:#004488;
+}
+
+.europaleague {
+    background-color: #882200;
+}
+
+.playoff {
+    background-color: #aa9900;
+}
+
+td {
+    padding: 5px 0px 5px 8px;
+    font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, 
+    .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+        border: 1px solid blue;
+        background-color: red;
+    }
+    .col-lg-1 {
+        width: 8,33%;
+    }
+    .col-lg-2 {
+        width: 16,66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33,32%;
+    }
+    .col-lg-5 {
+        width: 41,65%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58,33%;
+    }
+    .col-lg-8 {
+        width: 66,66%;
+    }
+    .col-lg-9 {
+        width: 75%;
+    }
+    .col-lg-10 {
+        width: 83,33%;
+    }
+    .col-lg-11 {
+        width: 91,63%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+pre {
+    font-family: monospace;
+    font-style: italic;
+}

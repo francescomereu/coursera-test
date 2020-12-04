@@ -2,58 +2,80 @@
 <html lang=it>
     <head>
         <title>ITALIA: Seria A</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <div>
-                <h1>ITALIA: Serie A</h1>
+            <div class="titolo">
+                <div id="bandiera">
+                    <div id="verde"></div>
+                    <div id="rosso"></div>
+                </div>
+                <div class="serieA">
+                    <h1>ITALIA: Serie A</h1>
+                </div>
             </div>
         </header>
         <section>
             <table>
+                <caption>2020 / 2021</caption>
+                <colgroup>
+                    <col span="1" width="50px">
+                    <col span="1" width="150px">
+                    <col span="1" width="40px">
+                    <col span="3" width="40px">
+                    <col span="2" width="30px">
+                    <col span="1" width="40px">
+                </colgroup>
                 <thead>
-                    <th>#</th>
-                    <th>Squadra</th>
-                    <th>Gare giocate</th>
-                    <th>Vinte</th>
-                    <th>Pareggiate</th>
-                    <th>Perse</th>
-                    <th>Reti fatte</th>
-                    <th>Reti subite</th>
-                    <th>Punti</th>
+                    <tr>
+                        <th rowspan="2">#</th>
+                        <th rowspan="2">Squadra</th>
+                        <th rowspan="2">G</th>
+                        <th colspan="3">Risultati</th>
+                        <th colspan="2">Reti</th>
+                        <th rowspan="2">Pt</th>
+                    </tr>
+                    <tr>
+                        <th>G</th>
+                        <th>V</th>
+                        <th>N</th>
+                        <th>RF</th>
+                        <th>RS</th>
+                    </tr>
                 </thead>
                 <tbody>
-                    <tr><td>1</td><td>Milan</td>            <!--Milan-->
+                    <tr><td class="champions">1</td><td>Milan</td>            <!--Milan-->
                         <td>8</td>                          <!--Partite giocate-->
                         <td>6</td><td>2</td><td>0</td>      <!--Vinte, pareggiate, perse-->
                         <td>19</td><td>8</td>               <!--Goal fatti e subiti-->
                         <td>20</td></tr>
                     <tr>
-                        <td>2</td><td>Sassuolo</td>         <!--Sassuolo-->
+                        <td class="champions">2</td><td>Sassuolo</td>         <!--Sassuolo-->
                         <td>8</td>
                         <td>5</td><td>3</td><td>0</td>
                         <td>20</td><td>9</td><td>18</td>
                     </tr>
                     <tr>
-                        <td>3</td><td>Roma</td>             <!--Roma-->
+                        <td class="champions">3</td><td>Roma</td>             <!--Roma-->
                         <td>8</td>  
                         <td>5</td><td>2</td><td>1</td>  
                         <td>19</td><td>11</td><td>17</td>
                     </tr>
                     <tr>
-                        <td>4</td><td>Juventus</td>         <!--Juventus-->     
+                        <td class="champions">4</td><td>Juventus</td>         <!--Juventus-->     
                         <td>8</td>  
                         <td>4</td><td>4</td><td>0</td>  
                         <td>17</td><td>6</td><td>16</td>
                     </tr>
                     <tr>
-                        <td>5</td><td>Inter</td>              <!--Inter-->      
+                        <td class="europaleague">5</td><td>Inter</td>              <!--Inter-->      
                         <td>8</td>
                         <td>4</td><td>3</td><td>1</td>    
                         <td>20</td><td>13</td><td>15</td>
                     </tr>
-                    <tr>
-                        <td>6</td><td>Napoli</td>              <!--Napoli-->
+                    <tr> 
+                        <td class="playoff">6</td><td>Napoli</td>              <!--Napoli-->
                         <td>8</td>
                         <td>5</td><td>0</td><td>3</td>    
                         <td>16</td><td>10</td><td>14</td>
@@ -125,7 +147,7 @@
                         <td>8</td><td>16</td><td>6</td>
                     </tr>
                     <tr>
-                        <td>18</td><td>Torino</td>      
+                        <td>18</td><td contenteditable="">Torino</td>      
                         <td>8</td>
                         <td>1</td><td>2</td><td>5</td>    
                         <td>14</td><td>20</td><td>5</td>
@@ -145,5 +167,14 @@
                 </tbody>
             </table>
         </section>
+        <hr>
+    <footer>
+        <div>
+            <form>
+                <input type="password">
+                <menu type="context">
+            </form>
+        </div>
+    </footer>
     </body>
 </html>
